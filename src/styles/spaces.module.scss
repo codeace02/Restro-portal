@@ -1,0 +1,42 @@
+.imgStyle {
+    height: 570px;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+
+    &:hover {
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
+    }
+}
+
+.numCardArrowWrapper {
+    position: absolute;
+    left: -5rem;
+    /* top: 51%; */
+    transform: translateY(-50%);
+    height: 344px;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    top: 43%;
+    cursor: pointer;
+}
+
+.arrow {
+    color: white !important;
+
+    &:hover {
+        color: rgb(175, 165, 165) !important;
+    }
+}
+
+.hovertext{
+    font-family: TiemposHeadline-italic;
+    font-size: 19px;
+    letter-spacing: .5px;
+    line-height: 30px;    
+}
+.head{
+    font-family: TiemposHeadline-italic;
+}

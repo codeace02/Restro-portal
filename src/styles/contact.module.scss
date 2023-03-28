@@ -1,0 +1,37 @@
+.underlineHover {
+    cursor: pointer !important;    
+    color: #4e4e4e;
+    font-family: TiemposHeadline-light;
+
+    &:hover {        
+        border-bottom: 1.4px solid gray !important;
+    }
+}
+
+.social {
+    font-family: TiemposHeadline-italic;
+    font-size: 23px;
+    letter-spacing: 1.2px;
+}
+
+.socialDiv {
+    font-size: 26px;
+    font-style: italic;
+    // color: #2f4f4fd1;
+    margin-bottom: 74px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #4a4a4a;
+}
+
+.street {
+    font-size: 24px;
+    font-family: TiemposHeadline-light;
+    font-style: normal;      
+}
+
+.streets {
+    font-size: 20px;
+    font-family: TiemposHeadline-light;
+    font-style: normal;
+}

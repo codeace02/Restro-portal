@@ -1,0 +1,74 @@
+.imgContainer {
+    height: 100%;
+    max-height: 43vh;
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.cardContent {
+    background-color: white;
+}
+
+.restro {
+    font-family: TiemposHeadline-light;
+    font-size: 3vw;
+    line-height: 3vw;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #bebdb3;
+}
+
+.about {
+    max-width: 60%;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #bebdb3;
+    font-family: Sackers-light;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #bebdb3;
+}
+
+.since {
+    font-family: TiemposHeadline-italic;
+    font-size: 1.1vw;
+    // line-height: 1.8vw;
+    letter-spacing: 1px;
+    color: #4a4a4a;
+    font-style: italic;
+}
+
+.slickSection {
+    width: 90%;
+}
+
+.marginBottom {
+    margin: 4% 2%;
+}
+.arrowSection{
+    display: none !important;
+}
+
+@media only screen and (max-width: 1045px) {
+    .aboutContainer {
+        width: 90%;
+    }
+
+    .slickSection {
+        display: none !important;
+    }
+
+    .marginBottom {
+        width: 80%;
+    }
+    .arrowSection{
+        display: flex !important;
+        padding-bottom: 2%;
+    }
+}

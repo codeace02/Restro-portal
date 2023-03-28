@@ -1,0 +1,57 @@
+.imgParent {
+  display: flex;
+  justify-content: space-between !important;
+  overflow: hidden !important;
+  // width: 40% !important;
+  // margin: 0 !important;
+  border: 9px solid white !important;
+  position: relative;
+
+  &:hover .outlineDiv {
+    visibility: visible;
+  }
+}
+
+.outlineDiv {
+  visibility: hidden;
+  position: absolute;
+  border: 1.4px solid #e0e0da;
+  top: 0;
+  margin: 5% 3%;
+  height: 85%;
+  width: 90%;
+  transition: opacity 0.4s;
+  pointer-events: none;
+  opacity: 1 !important;
+}
+
+.borderNone {
+  border-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.imgHover {
+  width: 100% !important;
+  height: auto !important;
+  transform: scale(1.1) !important;
+  transition: transform 1.2s !important;
+
+  &:hover {
+    transform: scale(1.2) !important;
+  }
+}
+
+.arr {
+  background-color: #f8efda;
+  border: 8px solid white !important;
+}
+
+@media only screen and (max-width: 1045px) {
+  .minuteContainer {
+    width: 90%;
+  }
+
+  .borderNone {
+    border-left: 9px solid white !important;
+  }
+}

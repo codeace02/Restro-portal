@@ -1,0 +1,63 @@
+.mainContainer{
+    background-image: url('/images/occasions-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    // min-width:100vw;
+    // width:inherit;
+    height: inherit;
+    min-height: 400px;
+    overflow-x: hidden;
+    z-index: -999;
+}
+.contentHeading
+{
+    color: white;
+    padding: 15px 0px;
+    font-size: 40px;
+    font-family: TiemposHeadline-light;
+    // font-size: 3vw;
+    line-height: 3vw;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #bebdb3;
+}
+.contentParagraph{
+    font-family: TiemposHeadline-italic;
+    font-size: 1.7vw;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #bebdb3;
+    font-style: italic;
+}
+.leftContainer{
+    background: #272525;
+    border: 1px groove #bebdb3;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 30px 0;
+}
+.content{
+    padding: 43px 86px;
+}
+.learnBtn{
+    background: #272525;
+    color:white;
+    border:2px solid white;
+    padding: 11px 30px;
+    margin-top: 22px;
+    &:hover{
+        background-color: white;
+        color:#272525;
+    }
+}
+@media screen and (max-width: 480px) {
+    .contentHeading{
+        font-size: 20px;
+    }
+  }
+  
+

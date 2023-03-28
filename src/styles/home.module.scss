@@ -1,0 +1,18 @@
+.video{
+    position: absolute; 
+    width: 100% !important; 
+    height: 100% !important; 
+    top: 0px; 
+    left: 0px; 
+    border: 0px none;
+}
+.main{
+    width: 100%
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        height: 100%;
+        background-color: #e0e0da !important
+    }
+}

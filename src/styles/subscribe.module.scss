@@ -1,0 +1,27 @@
+.btn {
+    border: 2px solid #50321e;
+    border-color: #bebdb3;
+    background-color: white !important;
+    font-family: Sackers-heavy;
+    // font-size: 15px !important;
+    padding: 15px 14px !important;
+    color: #000;
+    font-size: 15px;
+    line-height: 15px;
+
+    &:hover {
+        background-color: #50321e !important;
+        color: white !important;
+        border: 2px solid #50321e !important;
+    }
+}
+.sub{
+    font-family: TiemposHeadline-italic;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 14px;
+    color: #000;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}

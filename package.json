@@ -1,0 +1,41 @@
+{
+  "name": "restaurant",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 9008",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tabler/icons": "^1.119.0",
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.4",
+    "next": "^12.2.5",
+    "next-redux-wrapper": "^8.1.0",
+    "next-routes": "^1.4.2",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "18.2.0",
+    "react-hero-carousel": "^1.2.1",
+    "react-hot-toast": "^2.4.0",
+    "react-redux": "^8.0.2",
+    "react-scroll-to-top": "^3.0.0",
+    "react-slick": "^0.29.0",
+    "reactstrap": "^9.1.6",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.58.3",
+    "slick-carousel": "^1.8.1",
+    "twilio": "^4.8.0",
+    "underscore": "^1.13.6"
+  }
+}
